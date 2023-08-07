@@ -1,0 +1,82 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://codex.com.br/wp-content/uploads/2022/08/climate-change-concept-collage-1024x698.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+/* Estilo dos botões de navegação */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Estilos das seções */
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.video-section {
+  background-color: #f2f2f2;
+}
+
+.text-section {
+  background-color: #e0e0e0;
+}
+
+.image-text-section {
+  background-color: #ccc;
+}
+
+/* Estilos para o espaço de vídeo */
+.video-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos para o container de imagens e textos */
+.image-text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para as caixas de imagem e texto */
+.image-text-box {
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-content {
+  margin-top: 10px;
+}
+
+/* Estilos do rodapé */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
